@@ -175,7 +175,7 @@
   }
 
 
-  @media (max-width:870px) {
+   @media (max-width:870px) {
     #top-features,
     #top-prices,
     #top-description {
@@ -187,4 +187,36 @@
     width: 100%;
   }
 
+  #email {
+     margin-left: 100px;
+    margin-right: 100px;
+  }
+
+
+  #submit {
+     margin-left: 150px;
+    margin-right: 150px;
+  }
+
   } 
+
+@media (max-width:545px) {
+   .lists {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 0;
+   }
+
+   #email {
+     margin-left: 80px;
+    margin-right: 80px;
+  }
+
+
+  #submit {
+     margin-left: 100px;
+    margin-right: 100px;
+    background-color:
+  }
+}
