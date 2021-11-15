@@ -1,0 +1,190 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+
+
+
+#header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+  }
+  .lists {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 20px;
+  }
+
+.div-form {
+  width: auto;
+}
+  
+  #form {
+    display: flex;
+    flex-direction: column; 
+    box-sizing: border-box;
+    text-align: center;
+    margin-top:  15px;
+    width: 100%;
+  }
+
+
+  #email {
+     margin-left: 150px;
+    margin-right: 150px;
+  }
+
+
+  #submit {
+     margin-left: 200px;
+    margin-right: 200px;
+    background-color:
+  }
+
+
+  body {
+      font-size: 1rem;
+      background-color: rgba(113, 155, 168, 0.8);
+      margin: 0 10% 2% 10%;
+      line-height: 1.6;
+  }
+
+  #header-img {
+    height: 80px;
+    width: 100px;
+  }
+  
+
+  .nav-item,
+  .nav-link {
+        list-style: none;
+        color: rgb(23, 105, 105);
+        text-decoration: none;
+}
+
+  #top-features {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-flow: dense;
+  }
+
+
+  .premium {
+    text-align: center;
+    background: #ddd;
+    padding: 1.5rem 2rem;
+    box-shadow: 5px 5px #ddd;
+    border: 5px solid white;
+  }
+
+
+  .delivery {
+    text-align: center;
+    background: #ddd;
+    padding: 1.5rem 2rem;
+    box-shadow: 5px 5px #ddd;
+    border: 5px solid white;
+  }
+
+
+  .assurance {
+    text-align: center;
+    background: #ddd;
+    padding: 1.5rem 2rem;
+    box-shadow: 5px 5px #ddd;
+    border: 5px solid white;
+  }
+
+
+  #top-prices {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-flow: dense;
+  }
+
+
+  .price-1 {
+    text-align: center;
+    background: #ddd;
+    padding: 1.5rem 2rem;
+    box-shadow: 5px 5px #ddd;
+    border: 5px solid white;
+  }
+
+
+  .price-2 {
+     text-align: center;
+    background: #ddd;
+    padding: 1.5rem 2rem;
+    box-shadow: 5px 5px #ddd;
+    border: 5px solid white;
+  }
+
+
+  .price-3 {
+     text-align: center;
+    background: #ddd;
+    padding: 1.5rem 2rem;
+    box-shadow: 5px 5px #ddd;
+    border: 5px solid white;
+  }
+
+
+  #top-description {
+    display: grid;
+    background: #ddd;
+    padding: 1.5rem 2rem;
+    box-shadow: 5px 5px #ddd;
+    border: 5px solid white;
+  }
+
+
+ .assurance:hover,
+ .delivery:hover,
+ .premium:hover,
+ .nav-link:hover,
+ #submit:hover,
+ .price-1:hover,
+ .price-2:hover,
+ .price-3:hover{
+    transform: scale(1.2);
+  }
+
+  /*.delivery:hover{
+    transform: scale(1.2);
+  }
+  .premium:hover{
+    transform: scale(1.2);
+  }*/
+  .nav-link:hover{
+    transform: scale(1.2);
+  }
+  
+  #submit:hover{
+    transform: scale(1.2);
+  }
+
+
+  @media (max-width:870px) {
+    #top-features,
+    #top-prices,
+    #top-description {
+      display: flex;
+      flex-direction: column;
+    }
+
+   .nav-menu {
+    width: 100%;
+  }
+
+  } 
