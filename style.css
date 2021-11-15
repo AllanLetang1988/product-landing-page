@@ -160,22 +160,8 @@
     transform: scale(1.2);
   }
 
-  /*.delivery:hover{
-    transform: scale(1.2);
-  }
-  .premium:hover{
-    transform: scale(1.2);
-  }*/
-  .nav-link:hover{
-    transform: scale(1.2);
-  }
-  
-  #submit:hover{
-    transform: scale(1.2);
-  }
 
-
-   @media (max-width:870px) {
+@media (max-width:870px) {
     #top-features,
     #top-prices,
     #top-description {
@@ -217,6 +203,36 @@
   #submit {
      margin-left: 100px;
     margin-right: 100px;
-    background-color:
+  }
+}
+
+@media (max-width:385px) {
+   
+   #header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+  }
+
+
+  .lists {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+  }
+
+   #email {
+     margin-left: 80px;
+    margin-right: 80px;
+  }
+
+
+  #submit {
+     margin-left: 90px;
+    margin-right: 90px;
   }
 }
